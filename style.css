@@ -1,0 +1,43 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+
+.josefin-sans-<uniquifier > {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  height: 300px;
+  background-image: url(./images/nature.jpg);
+
+  font-family: "Josefin Sans", sans-serif;
+}
+.title {
+  display: flex;
+  align-items: center;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 15px;
+  text-align: left;
+  color: #fff;
+  margin-top: 70px;
+  margin-left: 450px;
+}
+
+input {
+  width: 540px;
+  height: 64px;
+  margin-top: 40px;
+  margin-left: 450px;
+  border-radius: 8px;
+}
